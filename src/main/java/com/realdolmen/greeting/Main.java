@@ -6,6 +6,6 @@ package com.realdolmen.greeting;
 public class Main {
     public static void main(String[] args) {
         HelloService hs = new HelloService();
-        hs.sayHello("Tjen");
+        System.out.println(hs.sayHello(args[0] + args[1]));
     }
 }
